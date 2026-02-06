@@ -1,0 +1,17 @@
+com/northstar/northstar/notification/service/mapper/NotificationMapper.class
+com/northstar/northstar/notification/service/configuration/AppConfiguration.class
+com/northstar/northstar/notification/service/service/NotificationService.class
+com/northstar/northstar/notification/service/entity/NotificationEntity$NotificationEntityBuilder.class
+com/northstar/northstar/notification/service/NorthstarNotificationServiceApplication.class
+com/northstar/northstar/notification/service/dto/NotificationRequest.class
+com/northstar/northstar/notification/service/mapper/NotificationMapperImpl.class
+com/northstar/northstar/notification/service/exception/GlobalExceptionHandler.class
+com/northstar/northstar/notification/service/impl/NotificationServiceImpl.class
+com/northstar/northstar/notification/service/dto/NotificationResponse.class
+com/northstar/northstar/notification/service/dto/NotificationResponse$NotificationResponseBuilder.class
+com/northstar/northstar/notification/service/controller/NotificationController.class
+com/northstar/northstar/notification/service/dto/NotificationRequest$NotificationRequestBuilder.class
+com/northstar/northstar/notification/service/repository/NotificationRepository.class
+com/northstar/northstar/notification/service/entity/NotificationEntity.class
+com/northstar/northstar/notification/service/configuration/SecurityConfiguration.class
+com/northstar/northstar/notification/service/controller/InternalNotificationController.class

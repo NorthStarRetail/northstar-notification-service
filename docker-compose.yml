@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  postgres:
+    image: postgres:alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: northstar_notification_db
+    ports:
+      - "5438:5432"
+    volumes:
+      - northstar_notification_pgdata:/var/lib/postgresql/data
+
+volumes:
+  northstar_notification_pgdata:

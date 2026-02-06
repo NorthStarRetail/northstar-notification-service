@@ -1,0 +1,22 @@
+package com.northstar.northstar.notification.service.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.Map;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class NotificationRequest {
+    private String userId;
+    private String name;
+    private String email;
+    private String subject;
+    private String body;
+    private String template;
+    private Map<String, Object> emailParams;
+}
